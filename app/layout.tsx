@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { cn } from '@/lib/utils'
 import { ThemeProvider } from "@/components/theme-provider";
+import { Navbar } from "@/components/sections";
 
 const fontSans = Plus_Jakarta_Sans({ 
   subsets: ["latin"],
@@ -12,8 +13,8 @@ const fontSans = Plus_Jakarta_Sans({
  });
 
 export const metadata: Metadata = {
-  title: "CarePulse",
-  description: "A healthcare management system",
+  title: "Aryan Yadav",
+  description: "It's personal portfolio of Aryan Yadav",
 };
 
 export default function RootLayout({
@@ -22,12 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn('min-h-screen bg-dark-300 font-sans antialiased', fontSans.variable)}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn('min-h-screen font-sans antialiased', fontSans.variable)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
+          // defaultTheme="dark"
         >
+          <Navbar/>
           {children}
         </ThemeProvider>
       </body>
