@@ -27,8 +27,8 @@ export default function RootLayout({
       <body className={cn('min-h-screen font-sans antialiased', fontSans.variable)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
-          // defaultTheme="dark"
+          // defaultTheme="light"
+          defaultTheme="dark"
         >
           <Navbar/>
           {children}

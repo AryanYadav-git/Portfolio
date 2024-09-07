@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row-reverse w-full px-8 py-6 rounded-xl bg-[#809091] bg-[#4a7766] text-white">
+    <div className="flex flex-col md:flex-row-reverse w-full px-8 py-6 rounded-xl bg-[#809091]">
       <div className="w-1/3 md:w-1/5 flex md:justify-end">
         <Image
           src="/photo.jpg"
