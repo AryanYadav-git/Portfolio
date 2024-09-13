@@ -27,10 +27,17 @@ const links = [
 const Navbar = () => {
   return (
     <div className=" w-full px-4 py-2 rounded-xl flex justify-between items-center ">
-      <div className="flex px-4 border w-40 p-1 rounded-3xl bg-white text-dark-200">
+      <div className="flex gap-1 md:gap-4 ">
+      <div className="flex px-4 border md:w-40 p-1 rounded-3xl bg-white text-dark-200">
         <Link href="/" className="flex w-full justify-between font-semibold">
-          Home <IconArrowRight className="font-light"/>
+          Home <IconArrowRight className="font-light hidden md:block "/>
         </Link>
+      </div>
+      <div className="flex px-4 md:w-32 p-1 rounded-3xl text-fuchsia-200">
+        <Link href="/blog" className="flex w-full justify-between font-semibold ">
+          <span className="hidden md:block">Read Blogs</span><span className="block md:hidden ">Blogs</span> 
+        </Link>
+      </div>
       </div>
       <div className="flex gap-6 ">
         {

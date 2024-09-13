@@ -1,9 +1,6 @@
 import { IconArrowRight, IconMapPin } from "@tabler/icons-react";
 import Image from "next/image";
 import React from "react";
-import WordFadeIn from "@/components/magicui/word-fade-in";
-import TypingAnimation from "../magicui/typing-animation";
-import GradualSpacing from "../magicui/gradual-spacing";
 import Link from "next/link";
 
 const Header = () => {
