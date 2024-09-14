@@ -9,7 +9,7 @@ const ProjectCard = ({project}:{project: ProjectCardParams}) => {
       <Image src={imgSrc!} alt="" height={1000} width={1000} className=" rounded-xl " />
       <div className="flex flex-col  p-1">
         <h3 className="text-2xl font-semibold">{title}</h3>
-        <p className="text-dark-600">{description}</p>
+        <p className="text-dark-600 font-semibold">{description}</p>
       </div>
       <div className="flex w-full gap-4">
         {url && <Link href={url} className="text-green-300 ">Website</Link>}

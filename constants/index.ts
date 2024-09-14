@@ -48,5 +48,46 @@ export const features = [
   },
 ]
 
+export const experiences = [
+  {
+    position: 'Full stack developer (Freelancer)',
+    company: 'Choudhary Fashions',
+    duration: 'June 2024 - July 2024',
+    location: 'Jaipur, India',
+    description: 'Developed an application which ensured role-based access control for cross-functional teams. Automated the process of generating final reports, saving valuable time and reducing manual errors.Enhanced the management of resources, making it easier for department heads to allocate and track resources efficiently.'
+  },
+  {
+    position: 'Open Source Lead',
+    company: 'GDSC, Gurukul Kangri deemed to be University',
+    duration: 'Aug. 2023 - July 2024',
+    location: 'Haridwar, India',
+    description: 'To promote the importance of open source development among club members and students, encouraging contributions to meaningful projects and participation in external open source initiatives.'
+  },
+]
+
+export const educations = [
+  {
+    degree: 'Bachelor of Technology - CSE',
+    institute: 'Gurukul Kangri deemed to be University',
+    duration: 'November 2022 - June 2026',
+    location: 'Haridwar, India',
+    score: '8.9'
+  },
+  {
+    degree: 'Intermediate',
+    institute: 'Kendriya Vidyalaya No. 5',
+    duration: 'April 2021 - March 2022',
+    location: 'Jaipur, India',
+    score: '94%'
+  },
+  {
+    degree: 'High School',
+    institute: 'Kendriya Vidyalaya No. 5',
+    duration: 'April 2019 - March 2020',
+    location: 'Jaipur, India',
+    score: '90%'
+  }
+]
+
 
 

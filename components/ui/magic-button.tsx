@@ -15,7 +15,6 @@ function MagicButton({
   handleClick?: () => void;
   otherClasses?: string;
 }) {
-  console.log(handleClick);
   return (
     <AnimatePresence mode="wait">
     <button
