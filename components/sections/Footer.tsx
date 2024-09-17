@@ -13,8 +13,8 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/aryan-yadav-bb658b25b/" className="text-white bg-dark-400 p-4 px-4 md:px-8 rounded-full flex gap-1"> <IconBrandLinkedin/> LinkedIn</a>
         <a href="https://github.com/AryanYadav-git" className="text-white flex gap-1 bg-dark-400 p-4 px-4 md:px-8 rounded-full"> <IconBrandGithub/> GitHub</a>
         <a href="https://twitter.com/AryanYadav466" className="text-white flex gap-1 bg-dark-400 p-4 px-4 md:px-8 rounded-full"><IconBrandX/> Twitter</a>
-        <a href="/blogs" className="text-white flex gap-1 bg-dark-400 p-4 px-4 md:px-8 rounded-full"><IconWriting/> Read Blogs</a>
-        <a href="/more" className="text-white flex gap-1 bg-dark-400 p-4 px-4 md:px-8 rounded-full"><IconHandMove/> More about me</a>
+        {/* <a href="/blogs" className="text-white flex gap-1 bg-dark-400 p-4 px-4 md:px-8 rounded-full"><IconWriting/> Read Blogs</a>
+        <a href="/more" className="text-white flex gap-1 bg-dark-400 p-4 px-4 md:px-8 rounded-full"><IconHandMove/> More about me</a> */}
       </div>
 
       

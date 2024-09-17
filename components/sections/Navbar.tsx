@@ -33,11 +33,11 @@ const Navbar = () => {
           Home <IconArrowRight className="font-light hidden md:block "/>
         </Link>
       </div>
-      <div className="flex px-4 md:w-32 p-1 rounded-3xl text-fuchsia-200">
-        <Link href="/blog" className="flex w-full justify-between font-semibold ">
+      {/* <div className="flex px-4 md:w-32 p-1 rounded-3xl text-emerald-200">
+        <Link href="/blogs" className="flex w-full justify-between font-semibold ">
           <span className="hidden md:block">Read Blogs</span><span className="block md:hidden ">Blogs</span> 
         </Link>
-      </div>
+      </div> */}
       </div>
       <div className="flex gap-6 ">
         {
