@@ -12,7 +12,7 @@ export default function Home() {
       <Featured/>
       <Education/>
       <Footer/>
-      <p className='font-mono font-extrabold flex w-full justify-center mt-6 '>... Designed and Developed by Me /...</p>
+      <p className='font-mono font-extrabold flex w-full justify-center mt-6 text-sm md:text-base '>... Designed and Developed by Me /...</p>
     </div>
   )
 }
