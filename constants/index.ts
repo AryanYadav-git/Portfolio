@@ -11,11 +11,10 @@ export const projects = [
   },
   {
     title: 'CourseTop',
-    description: 'A healthcare management service for scheduling appointments with multiple doctors , and the doctor dashboard to schedule or reject the appointment.',
-    // url: 'https://care-pulse-red.vercel.app',
+    description: 'Both admin and client side backend Server Implementation of course app using Express.js framework for server-side development, MongoDB for efficient database management, and implementing JWT.',
     github: 'https://github.com/AryanYadav-git/CarePulse',
     stack: ['Express', 'MongoDb', 'Jsonwebtoken'],
-    imgSrc: '/images/carepulse.png',
+    imgSrc: '/images/courseTop.png',
   },
   {
     title: 'Weather application',
@@ -39,7 +38,7 @@ export const features = [
   },
   {
     title: 'Supernal.aero clone',
-    description: 'A healthcare management service for scheduling appointments with multiple doctors , and the doctor dashboard to schedule or reject the appointment.',
+    description: 'A clone of the animation-heavy website, supernal.aero . Utilized GSAP - A wildly robust JavaScript animation library.',
     url: 'https://supernalaero-clone.netlify.app/',
     github: 'https://github.com/AryanYadav-git/supernal-clone',
     stack: ['Javascript', 'Gsap'],
