@@ -6,8 +6,8 @@ const Projects = () => {
     <div className="w-full" id="projects">
       <Heading title="Projects"/>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
-        {projects.map(project =>(
-          <ProjectCard project={project}/>
+        {projects.map((project, index) =>(
+          <ProjectCard key={index} project={project}/>
         ))}
       </div>
       

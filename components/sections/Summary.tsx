@@ -21,7 +21,7 @@ that seamlessly bridge user experiences with robust server-side functionality."
           className="text-sm text-white"
         />
         <div className="flex justify-evenly items-center mt-4 ">
-          <a download="" href="./files/Aryan_Yadav_Resume.pdf">
+          <a href="./files/Aryan_Yadav_Resume.pdf">
             <MagicButton
               title="Resume"
               icon={<IconDownload />}
