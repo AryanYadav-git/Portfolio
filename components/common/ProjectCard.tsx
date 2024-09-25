@@ -11,7 +11,7 @@ const ProjectCard = ({project}:{project: ProjectCardParams}) => {
         <h3 className="text-2xl font-semibold">{title}</h3>
         <p className="text-dark-600 font-semibold">{description}</p>
       </div>
-      <div className="flex w-full gap-4">
+      <div className="flex w-full gap-4 ">
         {url && <Link href={url} className="text-green-300 ">Website</Link>}
         <Link href={github!} className="text-blue-300 ">Github</Link>
         {readMore && <Link href={readMore} className="text-pink-300 ">Read More</Link>}
