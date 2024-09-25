@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'CourseTop',
     description: 'Both admin and client side backend Server Implementation of course app using Express.js framework for server-side development, MongoDB for efficient database management, and implementing JWT.',
-    github: 'https://github.com/AryanYadav-git/CarePulse',
+    github: 'https://github.com/AryanYadav-git/course-selling-app',
     stack: ['Express', 'MongoDb', 'Jsonwebtoken'],
     imgSrc: '/images/courseTop.png',
   },
