@@ -33,7 +33,7 @@ export const features = [
     description: 'Surch is a conversational search engine that leverages advanced language models to provide accurate and context-aware answers to user queries.',
     github: 'https://github.com/AryanYadav-git/surch-final',
     readMore: 'https://www.linkedin.com/feed/update/urn:li:activity:7230967202571509761/',
-    stack: ['Next', 'Clerk', 'Typescript', 'Shadcn', 'Express', 'MongoDb'],
+    stack: ['Next', 'Typescript', 'Shadcn', 'react-markdown', 'SyntaxHighlighter', 'Express', 'MongoDb'],
     imgSrc: '/images/surch.png',
   },
   {

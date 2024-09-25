@@ -16,7 +16,7 @@ const ProjectCard = ({project}:{project: ProjectCardParams}) => {
         <Link href={github!} className="text-blue-300 ">Github</Link>
         {readMore && <Link href={readMore} className="text-pink-300 ">Read More</Link>}
       </div>
-      <div className="flex w-full gap-1 md:gap-2 ">
+      <div className="flex flex-wrap w-full gap-1 md:gap-2 ">
         {stack!.map((icon, index) => (
           <div key={index} className="flex items-center  text-xs md:text-sm  text-cyan-300">
             {icon}
