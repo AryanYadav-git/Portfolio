@@ -49,9 +49,9 @@ export const features = [
 
 export const experiences = [
   {
-    position: 'Full Stack Developer (Intern)',
+    position: 'Web Application Developer (Intern)',
     company: 'Aharnish Infotech Pvt. Ltd.',
-    duration: 'Oct. 2024 - Present',
+    duration: 'Oct. 2024 - Jan. 2025',
     location: 'Remote',
     description: 'During my internship, I focused on integrating WordPress as a headless CMS with Next.js, using Faust.js and WPGraphQL to enable dynamic content rendering and streamlined workflows. I built scalable applications with the Next.js app router while also developing financial tools like a margin calculator and social media post and chat generators, delivering impactful solutions for the company.'
   },
