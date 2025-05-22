@@ -49,6 +49,13 @@ export const features = [
 
 export const experiences = [
   {
+    position: 'Software Engineer (Intern)',
+    company: 'Dolphant Group LLC (New Jersey)',
+    duration: 'Apr. 2025 - Present',
+    location: 'Remote',
+    description: 'Working on a multi-tenant architecture based application. Assuring best practices both in frontend and backend with Nestjs, Typescript and React.'
+  },
+  {
     position: 'Web Application Developer (Intern)',
     company: 'Aharnish Infotech Pvt. Ltd.',
     duration: 'Oct. 2024 - Jan. 2025',

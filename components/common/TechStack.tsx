@@ -23,7 +23,7 @@ const TechStack = () => {
         <div className="p-4 px-6 bg-white text-black rounded-3xl">
           <h3 className="font-bold text-lg text-dark-500">Backend</h3>
           <p className="font-semibold text-sm">
-            Node.js / Express.js / Prisma / Jsonwebtoken
+            Node.js / Nestjs / Bun / Hono / Express.js / Prisma / Jsonwebtoken
           </p>
         </div>
         </div>
