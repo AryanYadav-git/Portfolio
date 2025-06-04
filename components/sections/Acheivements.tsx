@@ -2,6 +2,7 @@
 import { ArrowRight, ChevronLeft, ChevronRight, X } from "lucide-react";
 import { useState } from "react";
 import { Dialog, DialogContent } from "../ui/dialog";
+import { Heading } from "../common";
 
 const images = [
   "/images/achievements/iitr1.jpg",
@@ -26,11 +27,9 @@ export default function AchievementsSection() {
 
   return (
     <section className="mt-24 w-full">
-      <h2 className="text-5xl font-semibold tracking-tight mb-10">
-        Achievements
-      </h2>
+      <Heading title="Acheivements" />
 
-      <div className="flex flex-col md:flex-row items-start gap-10 bg-[#111213] rounded-2xl p-6 md:p-10 shadow-md border border-neutral-800">
+      <div className="flex flex-col md:flex-row items-start gap-10 bg-[#111213] rounded-2xl p-0 md:p-6 shadow-md md:border border-neutral-800">
         {/* Left: Bento Grid */}
         <div className="grid grid-cols-2 gap-2 md:w-1/2 w-full">
           {images.map((src, idx) => (
