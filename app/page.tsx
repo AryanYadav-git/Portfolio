@@ -1,4 +1,5 @@
 import { Header,Experience, Projects, Summary, Education, Footer } from "@/components/sections";
+import AchievementsSection from "@/components/sections/Acheivements";
 import Featured from "@/components/sections/Featured";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Summary/>
       <Experience/>
+      <AchievementsSection/>
       <Projects />
       <Featured/>
       <Education/>

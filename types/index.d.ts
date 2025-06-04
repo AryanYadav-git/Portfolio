@@ -14,6 +14,7 @@ declare interface ExperienceParams {
   duration: string;
   location: string;
   description: string;
+  techUsed?: string[];
 }
 
 declare interface EducationParams{

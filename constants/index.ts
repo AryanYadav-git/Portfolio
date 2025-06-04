@@ -53,28 +53,32 @@ export const experiences = [
     company: 'Dolphant Group LLC (New Jersey)',
     duration: 'Apr. 2025 - Present',
     location: 'Remote',
-    description: 'Working on a multi-tenant architecture based application. Assuring best practices both in frontend and backend with Nestjs, Typescript and React.'
+    description: 'Working on a multi-tenant architecture based application. Architected an end-to-end complex workflow orchestration module, including frontend and backend. Implemented BFS in Directed graph, Iterative deepening with event-driven asynchronous processing. Immutable Audit Logging and replay capabilities. Used Base Nestjs Repository pattern for data abstraction. The system is designed for multi-cycle approval, automated approvals for configurable rules, Visual workflow designer with node based interface in ui.',
+    techUsed: ['React', 'Nestjs', 'Typescript', 'MongoDB' ]
   },
   {
     position: 'Web Application Developer (Intern)',
     company: 'Aharnish Infotech Pvt. Ltd.',
     duration: 'Oct. 2024 - Jan. 2025',
     location: 'Remote',
-    description: 'During my internship, I focused on integrating WordPress as a headless CMS with Next.js, using Faust.js and WPGraphQL to enable dynamic content rendering and streamlined workflows. I built scalable applications with the Next.js app router while also developing financial tools like a margin calculator and social media post and chat generators, delivering impactful solutions for the company.'
+    description: 'During my internship, I focused on integrating WordPress as a headless CMS with Next.js, using Faust.js and WPGraphQL to enable dynamic content rendering and streamlined workflows. I built scalable applications with the Next.js app router while also developing financial tools like a margin calculator and social media post and chat generators, delivering impactful solutions for the company.',
+    techUsed: ['Nextjs', 'Faustjs', 'Typescript', 'WPGraphQL' ]
   },
   {
     position: 'Full stack developer (Freelancer)',
     company: 'Choudhary Fashions',
     duration: 'June 2024 - July 2024',
     location: 'Jaipur, India',
-    description: 'Developed an application which ensured role-based access control for cross-functional teams. Automated the process of generating final reports, saving valuable time and reducing manual errors.Enhanced the management of resources, making it easier for department heads to allocate and track resources efficiently.'
+    description: 'Developed an application which ensured role-based access control for cross-functional teams. Automated the process of generating final reports, saving valuable time and reducing manual errors.Enhanced the management of resources, making it easier for department heads to allocate and track resources efficiently.',
+    techUsed: ['React', 'ContextAPI', 'Expressjs', 'Postgres', 'Prisma' ]
   },
   {
     position: 'Open Source Lead',
     company: 'GDSC, Gurukul Kangri deemed to be University',
     duration: 'Aug. 2023 - July 2024',
     location: 'Haridwar, India',
-    description: 'To promote the importance of open source development among club members and students, encouraging contributions to meaningful projects and participation in external open source initiatives.'
+    description: 'To promote the importance of open source development among club members and students, encouraging contributions to meaningful projects and participation in external open source initiatives.',
+    techUsed: ['GDSC' ]
   },
 ]
 

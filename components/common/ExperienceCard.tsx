@@ -1,21 +1,25 @@
-import React from 'react'
+import React from "react";
 
-const ExperienceCard = ({experience}:{experience: ExperienceParams}) => {
-  const { company, position, duration, description, location } = experience;
+const ExperienceCard = ({ experience }: { experience: ExperienceParams }) => {
+  const { company, position, duration, description, location, techUsed } = experience;
   return (
-    <div className='rounded-2xl px-4 py-4 bg-dark-400 flex flex-col justify-between'>
+    <div className="rounded-2xl px-4 py-4 bg-dark-400 flex flex-col justify-between">
       <div className="flex flex-col gap-1">
-      <h3 className='font-bold text-xl md:text-3xl '>{position}</h3>
-      <p className='text-gray-400 md:text-base font-semibold font-mono'>{company}</p>
-      <p className='mt-2 '>{description}</p>
-    </div>
-      <div className='text-gray-400 mt-4 font-semibold flex flex-col justify-end'>
+        <h3 className="font-bold text-xl md:text-3xl ">{position}</h3>
+        <p className="text-gray-400 md:text-base font-semibold font-mono">
+          {company}
+        </p>
+        <p className=" ">{description}</p>
+      </div>
+      
+      <div className="text-gray-400 mt-4 font-semibold flex flex-col justify-end">
+        <p className="mt-2 text-blue-500 gap-6">{techUsed?.toLocaleString()}</p>
         <div className="flex justify-between">
-        <p>{duration}</p> <p>{location}</p>
+          <p>{duration}</p> <p>{location}</p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ExperienceCard
+export default ExperienceCard;
