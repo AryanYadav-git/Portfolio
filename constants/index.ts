@@ -70,7 +70,7 @@ export const experiences = [
     duration: 'June 2024 - July 2024',
     location: 'Jaipur, India',
     description: 'Developed an application which ensured role-based access control for cross-functional teams. Automated the process of generating final reports, saving valuable time and reducing manual errors.Enhanced the management of resources, making it easier for department heads to allocate and track resources efficiently.',
-    techUsed: ['React', 'ContextAPI', 'Expressjs', 'Postgres', 'Prisma' ]
+    techUsed: ['React', 'Express', 'Postgres', 'Prisma' ]
   },
   {
     position: 'Open Source Lead',
