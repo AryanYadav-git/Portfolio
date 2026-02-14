@@ -5,8 +5,8 @@ const Featured = () => {
     <div className="w-full" id="projects">
     <Heading title="Featured"/>
     <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
-      {features.map(project =>(
-        <ProjectCard project={project}/>
+      {features.map((project) => (
+        <ProjectCard key={project.title} project={project} />
       ))}
     </div>
     

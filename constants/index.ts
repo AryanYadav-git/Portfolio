@@ -49,8 +49,8 @@ export const features = [
 
 export const experiences = [
   {
-    position: 'Software Engineer (Intern)',
-    company: 'Dolphant Group LLC (New Jersey)',
+    position: 'Software Engineer',
+    company: 'ThinkAct AI LLC (New Jersey)',
     duration: 'Apr. 2025 - Present',
     location: 'Remote',
     description: 'Working on a multi-tenant architecture based application. Architected an end-to-end complex workflow orchestration module, including frontend and backend. Implemented BFS in Directed graph, Iterative deepening with event-driven asynchronous processing. Immutable Audit Logging and replay capabilities. Used Base Nestjs Repository pattern for data abstraction. The system is designed for multi-cycle approval, automated approvals for configurable rules, Visual workflow designer with node based interface in ui.',
@@ -88,7 +88,7 @@ export const educations = [
     institute: 'Gurukul Kangri deemed to be University',
     duration: 'November 2022 - June 2026',
     location: 'Haridwar, India',
-    score: '8.9'
+    score: '8.75'
   },
   {
     degree: 'Intermediate',
@@ -106,5 +106,52 @@ export const educations = [
   }
 ]
 
-
-
+export const achievements = [
+  {
+    date: '30 - 31 January 2026',
+    images: [
+      '/images/achievements/aitp/aitp-1.jpeg',
+      '/images/achievements/aitp/aitp-2.jpeg',
+      '/images/achievements/aitp/aitp-3.jpeg',
+      '/images/achievements/aitp/aitp-4.jpeg',
+    ],
+    paragraphs: [
+      {
+        text: 'Winner - Innerve X Hackathon 2026 at AIT Pune- Sponsor Track "Best Use Of Vultr", among 10,000+ participants',
+        highlights: ['Winner - Innerve X Hackathon 2026', 'AIT Pune', 'Best Use Of Vultr'],
+      },
+      {
+        text: 'Developed an NLP-driven DevOps automation platform enabling on-demand GPU/CPU infrastructure deployment with automated environment setup such as "Pytorch" and "Tensorflow"',
+        highlights: ['NLP-driven DevOps', 'automated environment setup'],
+      },
+      {
+        text: 'Along with a Marketplace for one-click Infrasturctural deployment with intelligent provider selection for cost optimization across Vultr and DigitalOcean.',
+        highlights: ['Marketplace for one-click Infrasturctural deployment', 'Vultr', 'DigitalOcean'],
+      },
+    ],
+  },
+  {
+    date: '1 - 2 February 2025',
+    images: [
+      '/images/achievements/iitr/iitr1.jpg',
+      '/images/achievements/iitr/iitr2.png',
+      '/images/achievements/iitr/iitr3.jpg',
+      '/images/achievements/iitr/iitr4.png',
+    ],
+    paragraphs: [
+      {
+        text: "Winner - Spheron Track at Productathon AI 2025, hosted by IIT Roorkee, among 50+ competitive teams.",
+        highlights: ['Winner - Spheron Track', 'Productathon AI 2025', 'IIT Roorkee'],
+      },
+      {
+        text: "Built a powerful NLP-powered YAML generator that automates deployment workflows on Spheron's decentralized GPU infrastructure. The intuitive application, coupled with one-click deployment on Spheron's GPU infrastructure.",
+        highlights: ['NLP-powered YAML generator', 'one-click deployment'],
+      },
+      {
+        text: "The platform also featured deployment history management for easy redeployment, and a custom-built dashboard to monitor job states and resource usage. This project showcased not just technical execution, but thoughtful user experience design.",
+        highlights: ['deployment history management'],
+      },
+    ],
+  },
+  
+]
