@@ -4,7 +4,7 @@ import { experiences } from "@/constants";
 
 const Experience = () => {
   return (
-    <div className="">
+    <div className="" id="experience">
       <Heading title="Work" />
       <div className="grid md:grid-cols-2 gap-2 ">
         {experiences.map((experience, index) => (

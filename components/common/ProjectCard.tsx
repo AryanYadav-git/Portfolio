@@ -12,10 +12,10 @@ const ProjectCard = ({ project }: { project: ProjectCardParams }) => {
     <div className="border flex flex-col justify-between border-dark-500 p-4 rounded-xl">
       <Image
         src={imgSrc!}
-        alt=""
+        alt={`${title} project screenshot`}
         height={1000}
         width={1000}
-        className=" rounded-xl "
+        className="rounded-xl"
       />
       <div className="flex flex-col p-1">
         <h3 className="text-2xl font-semibold">{title}</h3>

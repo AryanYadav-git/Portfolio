@@ -108,6 +108,7 @@ export const educations = [
 
 export const achievements = [
   {
+    alt: 'AIT Pune Innerve Hackathon 2026',
     date: '30 - 31 January 2026',
     images: [
       '/images/achievements/aitp/aitp-1.jpeg',
@@ -131,6 +132,7 @@ export const achievements = [
     ],
   },
   {
+    alt: 'Productathon AI IIT Roorkee',
     date: '1 - 2 February 2025',
     images: [
       '/images/achievements/iitr/iitr1.jpg',

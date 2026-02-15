@@ -1,5 +1,6 @@
 "use client";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 import { Dialog, DialogContent } from "../ui/dialog";
 import { Heading } from "../common";
@@ -37,8 +38,10 @@ export default function AchievementsSection() {
   const prev = () =>
     setSelectedImageIndex((prev) => (prev - 1 + currentImages.length) % currentImages.length);
 
+  const currentAlt = achievements[selectedAchievementIndex]?.alt ?? "Achievement gallery";
+
   return (
-    <section className="mt-24 w-full">
+    <section className="mt-24 w-full" id="achievements">
       <Heading title="Acheivements" />
 
       <div className="flex flex-col gap-10">
@@ -52,12 +55,14 @@ export default function AchievementsSection() {
               {achievement.images.map((src, idx) => (
                 <div
                   key={idx}
-                  className="overflow-hidden rounded-md group relative cursor-pointer"
+                  className="overflow-hidden rounded-md group relative cursor-pointer h-40"
                   onClick={() => openGallery(achievementIdx, idx)}
                 >
-                  <img
+                  <Image
                     src={src}
-                    alt={`Achievement ${achievementIdx + 1} ${idx + 1}`}
+                    alt={`${achievement.alt ?? "Achievement"} - Photo ${idx + 1}`}
+                    width={400}
+                    height={160}
                     className="object-cover h-40 w-full rounded-md transition duration-300 ease-in-out group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/10 rounded-xl pointer-events-none" />
@@ -98,11 +103,15 @@ export default function AchievementsSection() {
             >
               <ChevronLeft />
             </button>
-            <img
-              src={currentImages[selectedImageIndex]}
-              alt={`Gallery ${selectedImageIndex}`}
-              className="rounded-xl max-h-[80vh] object-contain w-11/12"
-            />
+            {currentImages[selectedImageIndex] && (
+              <Image
+                src={currentImages[selectedImageIndex]}
+                alt={currentAlt}
+                width={1200}
+                height={800}
+                className="rounded-xl max-h-[80vh] w-auto h-auto object-contain"
+              />
+            )}
             <button
               className="absolute right-4 z-10 text-white text-2xl hover:text-gray-700 hover:bg-gray-300 h-10 rounded-md"
               onClick={next}

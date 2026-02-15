@@ -8,16 +8,17 @@ const Header = () => {
       <div className="w-1/3 md:w-1/5 flex md:justify-end">
         <Image
           src="/profile.jpeg"
-          alt="photo"
+          alt="Aryan Yadav, Full Stack Developer"
           height={200}
           width={200}
-          className=" rounded-full"
+          className="rounded-full"
+          priority
         />
       </div>
       <div className="w-full md:w-4/5 flex flex-col gap-8 justify-start">
-        <div className="text-5xl md:text-8xl mt-4 md:mt-8 font-light">
+        <h1 className="text-5xl md:text-8xl mt-4 md:mt-8 font-light">
           Aryan Yadav
-        </div>
+        </h1>
         <div className="flex gap-2 flex-col md:flex-row">
           <div className="w-full md:w-1/2 xl:w-1/4">
             <Link href="#projects">

@@ -3,9 +3,8 @@ import AchievementsSection from "@/components/sections/Acheivements";
 import Featured from "@/components/sections/Featured";
 
 export default function Home() {
-  return(
-    <div className=" px-4 py-2 flex flex-col gap-8 
-    ">
+  return (
+    <main className="px-4 py-2 flex flex-col gap-8" id="main-content">
       <Header />
       <Summary/>
       <Experience/>
@@ -14,7 +13,9 @@ export default function Home() {
       <Featured/>
       <Education/>
       <Footer/>
-      <p className='font-mono font-extrabold flex w-full justify-center mt-6 text-sm md:text-base '>... Designed and Developed by Me /...</p>
-    </div>
-  )
+      <p className="font-mono font-extrabold flex w-full justify-center mt-6 text-sm md:text-base">
+        ... Designed and Developed by Me /...
+      </p>
+    </main>
+  );
 }

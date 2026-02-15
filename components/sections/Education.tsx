@@ -4,7 +4,7 @@ import { educations } from '@/constants'
 
 const Education = () => {
   return (
-    <div>
+    <div id="education">
       <Heading title='Education'/>
       <div className="flex flex-col border-dark-600 border-t-2 md:border-t-0">
         {
